@@ -24,12 +24,12 @@ Cette calculatrice web est un projet simple mais fonctionnel, conçu avec HTML, 
 
 1. **Clonez le repository :**
    ```bash
-   git clone https://github.com/votre-utilisateur/calculatrice-web.git
+   git clone https://github.com/eadarak00/simple-calculator
    ```
 
 2. **Naviguez vers le dossier du projet :**
    ```bash
-   cd calculatrice-web
+   cd simple-calculator
    ```
 
 3. **Ouvrez `index.html` dans votre navigateur :**
@@ -52,11 +52,7 @@ Cette calculatrice web est un projet simple mais fonctionnel, conçu avec HTML, 
 
 ## Auteur
 
-- **Nom de l'auteur** : [Votre Nom](https://votre-lien-personnel-ou-github.com)
-
-## Remerciements
-
-Merci à tous ceux qui ont contribué au développement de ce projet. Un remerciement spécial aux développeurs des bibliothèques et outils open source utilisés dans ce projet.
+- **Nom de l'auteur** : [El Hadji Abdou DRAME](https://www.linkedin.com/in/elhadji-abdou-drame/)
 
 ## Note
 
