@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="clear">
+            <button class="btn btn-clear" onclick="effacerEcran()">C</button>
+        </div>
+        <div class="buttons">
+            <div class="numbers">
+                <button class="btn" onclick= "afficherSaisie('1')">1</button>
+                <button class="btn" onclick= "afficherSaisie('2')">2</button>
+                <button class="btn" onclick= "afficherSaisie('3')">3</button>
+                <button class="btn" onclick= "afficherSaisie('4')">4</button>
+                <button class="btn" onclick= "afficherSaisie('5')">5</button>
+                <button class="btn" onclick= "afficherSaisie('6')">6</button>
+                <button class="btn" onclick= "afficherSaisie('7')">7</button>
+                <button class="btn" onclick= "afficherSaisie('8')">8</button>
+                <button class="btn" onclick= "afficherSaisie('9')">9</button>
+                <button class="btn" onclick= "afficherSaisie('0')">0</button>
+                <button class="btn" onclick= "afficherSaisie('.')">.</button>
+                <button class="btn btn-equal" onclick="calculerResultats()">=</button>
+            </div>
+            <div class="operations">
+            <button class="btn" onclick= "ajouterOperateur('/')">/</button>
+            <button class="btn" onclick= "ajouterOperateur('*')">x</button>
+            <button class="btn" onclick= "ajouterOperateur('-')">-</button>
+            <button class="btn" onclick= "ajouterOperateur('+')">+</button>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
