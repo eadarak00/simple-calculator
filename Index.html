@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculatrice</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="calculator">
         <input type="text" id="display" disabled>
-        <div class="clear">
+        <div class="buttons-top">
+            <button class="btn btn-onOrOff" id="OnOff" onclick="allumerOuEteindre()"><i class="fa-solid fa-power-off"></i></button>
             <button class="btn btn-clear" onclick="effacerEcran()">C</button>
+            <button class="btn btn-remove" onclick="supprimer()"><i class="fa-solid fa-delete-left"></i></button>
+            
         </div>
         <div class="buttons">
             <div class="numbers">

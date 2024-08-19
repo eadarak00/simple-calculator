@@ -33,6 +33,11 @@ body {
     margin-bottom: 20px;
     outline: none;
 }
+.buttons-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
 
 .buttons {
     display: flex;
@@ -75,8 +80,7 @@ body {
     transform: translateY(2px);
 }
 
-.btn-clear {
-    background-color: #e74c3c;
+.btn-clear, .btn-remove, .btn-onOrOff{
     color: #fff;
     font-size: 1.5em;
     padding: 20px;
@@ -87,10 +91,15 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+}
+
+
+.btn-remove {
+    background-color: #e74c3c;
     box-shadow: 0 5px #b03a2e;
 }
 
-.btn-clear:active {
+.btn-remove:active {
     box-shadow: 0 3px #78281f;
     transform: translateY(2px);
 }
